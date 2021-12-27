@@ -20,6 +20,16 @@ html, body {
     padding-right: 30%;
 }
 
+@media only screen and (max-width: 768px) {
+    .full-section{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+}
+
+
 .first-title{
     font-family: 'Shizuru';
     word-spacing: -55%;
@@ -36,6 +46,9 @@ html, body {
     margin-left: 20%;
 }
 
+
+
+
 .paragraph-styling{
     margin: 0;
     cursor: pointer;
@@ -45,3 +58,6 @@ html, body {
 .to-dos{
     margin-top: 2%;
 }
+
+
+
